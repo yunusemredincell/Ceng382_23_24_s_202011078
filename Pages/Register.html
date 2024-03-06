@@ -5,40 +5,45 @@
 
     <title> User Registration </title>
 
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
 <body>
 
-    <div>
+    <div class="container">
         <h2>User Registration</h2>
 
-        <div>
+        <div class="form-group">
             <label for="username">Username:</label>
-            <br />
+
             <input type="text" id="username" required>
         </div>
-        <div>
+        <div class="form-group">
             <label for="email">Email:</label>
-            <br />
+
             <input type="text" id="email" required>
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="password">Password:</label>
-            <br />
+
+
             <input type="password" id="password" required>
-            <div>
-                <label for="confirm">Confirm Password:</label>
-                <br />
-                <input type="password" id="confirm" required>
-            </div>
-            <br />
-            <button type="button">Login</button>
         </div>
+        <div class="form-group">
+            <label for="confirm">Confirm Password:</label>
+
+            <input type="password" id="confirm" required>
+        </div>
+
+        <button type="button">Login</button>
+    </div>
 
 
 
 </body>
 
-</head>
+
 
 
 
