@@ -1,11 +1,10 @@
 .container {
-    max-width: 200px;
+    max-width: 400px;
     margin: auto;
-    padding: 100px;
-    border-collapse: collapse;
+    padding: 50px;
     border-radius: 10px;
     background-color: lightgray;
-    /* height: 100vh; */
+
 }
 
 h2 {
@@ -14,41 +13,33 @@ h2 {
 }
 
 .form-group {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     font-weight: bold;
+    color: black
 }
-
-label[for="username"],
-label[for="title"],
-label[for="email"],
-label[for="password"],
-label[for="confirm"] {
-    color: black;
-}
-
-
 
 input[type="text"],
 input[type="password"] {
     justify-content: center;
-    width: 100%;
+    width: calc(100%-20px);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
 }
 
 
 button[type="button"] {
     display: block;
-    width: 115%;
+    width: 100%;
     padding: 15px;
     background-color: green;
     color: #ffffff;
     border: none;
-    border-radius: 100px;
+    border-radius: 5px;
     cursor: pointer;
 
 }
