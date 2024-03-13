@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YVX/K1V7x6ORn89ii+K8a9D84HKasuf8wz8GW9UotDA=",
+  "Hash": "kdUpkZlCuH4A8B8oGlCyoXlndhlMsuHgMqn+fvhMNVs=",
   "Source": "Lab4",
   "BasePath": "_content/Lab4",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Lab4.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\css\\bootstrap-logo.svg",
+      "SourceId": "Lab4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\",
+      "BasePath": "_content/Lab4",
+      "RelativePath": "css/bootstrap-logo.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-logo.svg"
+    },
+    {
       "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "Lab4",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\css3"
+    },
+    {
+      "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\css\\pricing.css",
+      "SourceId": "Lab4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\",
+      "BasePath": "_content/Lab4",
+      "RelativePath": "css/pricing.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pricing.css"
     },
     {
       "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\css\\site.css",
