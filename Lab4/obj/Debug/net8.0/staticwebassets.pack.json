@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\js\\button.js",
+      "PackagePath": "staticwebassets\\js\\button.js"
+    },
+    {
       "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

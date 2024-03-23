@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kdUpkZlCuH4A8B8oGlCyoXlndhlMsuHgMqn+fvhMNVs=",
+  "Hash": "cckOD/zLKK9/fECP9tLuuZ5U8h+/TLKmpKsTjEriBXc=",
   "Source": "Lab4",
   "BasePath": "_content/Lab4",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\js\\button.js",
+      "SourceId": "Lab4",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\",
+      "BasePath": "_content/Lab4",
+      "RelativePath": "js/button.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\button.js"
     },
     {
       "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\Lab4\\wwwroot\\js\\site.js",

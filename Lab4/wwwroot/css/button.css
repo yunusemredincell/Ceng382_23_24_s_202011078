@@ -1,0 +1,39 @@
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 50px;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#calculator-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.result strong {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: px;
+    font-size: 20px;
+}
