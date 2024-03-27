@@ -1,0 +1,15 @@
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\bin\Debug\net8.0\Ceng382_23_24_s_202011078.exe
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\bin\Debug\net8.0\Ceng382_23_24_s_202011078.deps.json
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\bin\Debug\net8.0\Ceng382_23_24_s_202011078.runtimeconfig.json
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\bin\Debug\net8.0\Ceng382_23_24_s_202011078.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\bin\Debug\net8.0\Ceng382_23_24_s_202011078.pdb
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.AssemblyInfoInputs.cache
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.AssemblyInfo.cs
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.csproj.CoreCompileInputs.cache
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.sourcelink.json
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\refint\Ceng382_23_24_s_202011078.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.pdb
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\Ceng382_23_24_s_202011078.genruntimeconfig.cache
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\obj\Debug\net8.0\ref\Ceng382_23_24_s_202011078.dll

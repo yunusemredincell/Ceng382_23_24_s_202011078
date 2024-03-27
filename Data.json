@@ -1,0 +1,84 @@
+{
+    "Room": [
+        {
+            "roomId": "001",
+            "roomName": "A-101",
+            "capacity": "30"
+        },
+        {
+            "roomId": "002",
+            "roomName": "A-102",
+            "capacity": "24"
+        },
+        {
+            "roomId": "003",
+            "roomName": "A-103",
+            "capacity": "26"
+        },
+        {
+            "roomId": "004",
+            "roomName": "A-104",
+            "capacity": "28"
+        },
+        {
+            "roomId": "005",
+            "roomName": "A-105",
+            "capacity": "30"
+        },
+        {
+            "roomId": "006",
+            "roomName": "A-106",
+            "capacity": "32"
+        },
+        {
+            "roomId": "007",
+            "roomName": "A-107",
+            "capacity": "34"
+        },
+        {
+            "roomId": "008",
+            "roomName": "A-108",
+            "capacity": "36"
+        },
+        {
+            "roomId": "009",
+            "roomName": "A-109",
+            "capacity": "38"
+        },
+        {
+            "roomId": "010",
+            "roomName": "A-110",
+            "capacity": "40"
+        },
+        {
+            "roomId": "011",
+            "roomName": "A-111",
+            "capacity": "42"
+        },
+        {
+            "roomId": "012",
+            "roomName": "A-112",
+            "capacity": "44"
+        },
+        {
+            "roomId": "013",
+            "roomName": "A-113",
+            "capacity": "46"
+        },
+        {
+            "roomId": "014",
+            "roomName": "A-114",
+            "capacity": "48"
+        },
+        {
+            "roomId": "015",
+            "roomName": "A-115",
+            "capacity": "50"
+        },
+        {
+            "roomId": "016",
+            "roomName": "A-116",
+            "capacity": "52"
+        }
+    ]
+}

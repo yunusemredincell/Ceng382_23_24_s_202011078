@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ceng382_23_24_s_202011078/1.0.0": {
+        "runtime": {
+          "Ceng382_23_24_s_202011078.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ceng382_23_24_s_202011078/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
