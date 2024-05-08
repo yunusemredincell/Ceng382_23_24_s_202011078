@@ -6,6 +6,7 @@ using System.Text.Json.Serialization;
 namespace Ceng382_23_24_s_202011078;
 public class Reservation
 {
+    public int Id { get; set; }
     public DateTime Time { get; set; }
     public DateTime Date { get; set; }
     public string? reserverName { get; set; }
