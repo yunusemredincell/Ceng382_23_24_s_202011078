@@ -1,8 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using YedWebApp1.Data;
 
 namespace MyApp.Namespace
 {
+
+  [Authorize]
   public class ShowRoomsModel : PageModel
   {
     RoomService roomService;
@@ -15,4 +18,5 @@ namespace MyApp.Namespace
       RoomList = roomService.GetRooms();
     }
   }
+
 }
