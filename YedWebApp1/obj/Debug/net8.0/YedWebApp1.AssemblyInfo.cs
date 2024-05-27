@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YedWebApp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+568a921d179c11f15a9fcf1a2ddc62d3fa520b04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1956f199afee679e19fa6730386015a9a2f5e103")]
 [assembly: System.Reflection.AssemblyProductAttribute("YedWebApp1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YedWebApp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

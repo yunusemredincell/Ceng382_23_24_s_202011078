@@ -1,10 +1,22 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
 }
+<head>
+    <link rel="stylesheet" href="~/css/Index.css" />
+</head>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Hotel YED</h1>
-    <p>Please contact hotelyed@bussiness.com for any questions.  </a>.</p>
+<div class="homepage-background">
+    <div class="overlay">
+        <div class="text-center">
+            <h1 class="display-4">Welcome to Mardin Stone Hotel</h1>
+            <p>Enjoy a quality experience and service with your loved ones by choosing Mardin Stone Hotel. </p>
+            <div class="explore-button-container">
+                <a asp-area="" asp-page="/CreateRooms" id="explore-button" class="btn btn-primary">Create Resservations
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+
