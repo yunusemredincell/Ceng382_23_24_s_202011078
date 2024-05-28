@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "11iSwKxp3DrXIFlFXkV1uNDrOBuX0YXc1qkUYzmMKy8=",
+  "Hash": "UPHtNzIaN2uhakadreDKKX+bsL1rq7RKRxFATPPaiO4=",
   "Source": "YedWebApp1",
   "BasePath": "_content/YedWebApp1",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\hotel-background.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\image\\mardin-home.jpg",
+      "SourceId": "YedWebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\",
+      "BasePath": "_content/YedWebApp1",
+      "RelativePath": "image/mardin-home.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\mardin-home.jpg"
     },
     {
       "Identity": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\js\\site.js",

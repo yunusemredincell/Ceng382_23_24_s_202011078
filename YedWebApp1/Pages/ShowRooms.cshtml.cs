@@ -11,7 +11,7 @@ namespace MyApp.Namespace
     RoomService roomService;
 
     private readonly ApplicationDbContext show_context;
-    public ShowRoomsModel(MyAppDbContext context) => roomService = new RoomService(context);
+    public ShowRoomsModel(ApplicationDbContext context) => roomService = new RoomService(context);
     public List<Room> RoomList { get; set; } = default!;
     public void OnGet()
     {

@@ -1,0 +1,52 @@
+﻿@page
+@model ShowReservationModel
+@{
+    ViewData["Title"] = "Show Reservations";
+}
+
+<h2>Show Reservations</h2>
+
+<form method="get">
+    <div class="form-group">
+        <label for="RoomName">Room Name</label>
+        <input type="text" id="RoomName" name="RoomName" class="form-control" value="@Model.Filter.RoomName" />
+    </div>
+    <div class="form-group">
+        <label for="StartDate">Start Date</label>
+        <input type="date" id="StartDate" name="StartDate" class="form-control" value="@Model.Filter.StartDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div class="form-group">
+        <label for="EndDate">End Date</label>
+        <input type="date" id="EndDate" name="EndDate" class="form-control" value="@Model.Filter.EndDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div class="form-group">
+        <label for="Capacity">Room Capacity</label>
+        <input type="number" id="Capacity" name="Capacity" class="form-control" value="@Model.Filter.Capacity" />
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room Name</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reservation in Model.Reservations)
+        {
+            <tr>
+                <td>@reservation.room.RoomName</td>
+                <td>@reservation.ReservationStartDate</td>
+                <td>@reservation.ReservationEndDate</td>
+                <td>
+                <a asp-page="/EditReservation" asp-route-id="@reservation.Id" class="btn btn-sm btn-warning">Edit</a>
+                <a asp-page="/DeleteReservation" asp-route-id="@reservation.Id" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

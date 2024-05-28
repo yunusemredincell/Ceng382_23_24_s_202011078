@@ -14,7 +14,7 @@ namespace MyApp.Namespace
         public Room Room { get; set; }
         RoomService roomService;
 
-        public CreateRoomsModel(MyAppDbContext context)
+        public CreateRoomsModel(ApplicationDbContext context)
         {
             this.roomService = new RoomService(context);
 
