@@ -4,9 +4,13 @@
     ViewData["Title"] = "Show Reservations";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/ShowReservationsStyle.css" asp-append-version="true" />
+</head>
+
 <h2>Show Reservations</h2>
 
-<form method="get">
+<form method="get" class="filter-form">
     <div class="form-group">
         <label for="RoomName">Room Name</label>
         <input type="text" id="RoomName" name="RoomName" class="form-control" value="@Model.Filter.RoomName" />
@@ -26,12 +30,14 @@
     <button type="submit" class="btn btn-primary">Filter</button>
 </form>
 
-<table class="table">
+<table class="table table-hover">
     <thead>
         <tr>
-            <th>Room Name</th>
+           <th>Room Name</th>
             <th>Start Date</th>
+            <th>Start Time</th>
             <th>End Date</th>
+            <th>End Time</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -39,9 +45,11 @@
         @foreach (var reservation in Model.Reservations)
         {
             <tr>
-                <td>@reservation.room.RoomName</td>
-                <td>@reservation.ReservationStartDate</td>
-                <td>@reservation.ReservationEndDate</td>
+                 <td>@reservation.room.RoomName</td>
+                <td>@reservation.ReservationStartDate.ToString("yyyy-MM-dd")</td>
+                <td>@reservation.ReservationStartDate.ToString("HH:mm")</td>
+                <td>@reservation.ReservationEndDate.ToString("yyyy-MM-dd")</td>
+                <td>@reservation.ReservationEndDate.ToString("HH:mm")</td>
                 <td>
                     <a href="/EditReservation?id=@reservation.Id" class="btn btn-sm btn-warning">Edit</a>
                     <a href="/DeleteReservation?id=@reservation.Id" class="btn btn-sm btn-danger">Delete</a>
@@ -50,3 +58,4 @@
         }
     </tbody>
 </table>
+

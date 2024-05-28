@@ -1,0 +1,100 @@
+body {
+    background-color: #FFF2E1;
+    color: #070f2a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: rgba(57, 40, 27, 0.8);
+    text-align: center;
+}
+
+.filter-form {
+    background-color: #d3b690;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+.form-group input.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #070f2a;
+    background-color: #f8efe5;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.filter-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.filter-form .btn-primary {
+    background-color: rgba(166, 123, 91, 0.8);
+    border-color: rgba(166, 123, 91, 0.8);
+    color: #FFF2E1;
+}
+
+.filter-form .btn-primary:hover {
+    background-color: #8b6a54;
+    border-color: #8b6a54;
+}
+
+.table {
+    background-color: #EAD8C0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #A67B5B;
+    color: #FFF2E1;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(166, 123, 91, 0.2);
+}
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    color: #070f2a;
+}
+
+.table .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #070f2a;
+}
+
+.table .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #FFF2E1;
+}
+
+.table .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.footer {
+    background-color: rgba(166, 123, 91,0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

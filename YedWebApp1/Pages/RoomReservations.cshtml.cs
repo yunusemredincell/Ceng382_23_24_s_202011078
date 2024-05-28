@@ -6,6 +6,8 @@ using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
+using System.Threading.Tasks;
+using System;
 
 [Authorize]
 public class RoomReservationModel : PageModel
@@ -28,10 +30,11 @@ public class RoomReservationModel : PageModel
         Rooms = _context.Rooms.ToList();
     }
 
-    public IActionResult OnPost()
+    public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid)
         {
+            Rooms = _context.Rooms.ToList(); 
             return Page();
         }
 
@@ -40,20 +43,20 @@ public class RoomReservationModel : PageModel
 
         bool isRoomAvailable = !_context.Reservations
             .Any(r => r.RoomId == Reservation.RoomId &&
-                      r.ReservationStartDate < Reservation.ReservationEndDate &&
                       r.ReservationEndDate > Reservation.ReservationStartDate);
 
         if (!isRoomAvailable)
         {
             ModelState.AddModelError(string.Empty, "The selected room is not available for the specified date and time.");
-            return Page();
+            Rooms = _context.Rooms.ToList(); 
+
         }
 
         _context.Reservations.Add(Reservation);
-        _context.SaveChanges();
+        await _context.SaveChangesAsync();
 
         _logger.LogInformation($"Reservation created: {Reservation.Id} by {Reservation.reserverName}");
 
-        return RedirectToPage("./ShowReservations");
+        return RedirectToPage("ShowReservations");
     }
 }

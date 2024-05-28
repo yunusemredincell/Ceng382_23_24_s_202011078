@@ -4,17 +4,28 @@
     ViewData["Title"] = "Room Reservation";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/RoomReservationsStyle.css" asp-append-version="true" />
+</head>
+
 <h2>Room Reservation</h2>
 
-<form method="post">
+<form method="post" class="reservation-form">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
     <div class="form-group">
         <label for="RoomId">Room</label>
         <select id="RoomId" name="RoomId" class="form-control" asp-for="Reservation.RoomId">
-            @foreach (var room in Model.Rooms)
+            @if (Model.Rooms != null && Model.Rooms.Any())
             {
-                <option value="@room.Id">@room.RoomName</option>
+                @foreach (var room in Model.Rooms)
+                {
+                    <option value="@room.Id">@room.RoomName</option>
+                }
+            }
+            else
+            {
+                <option disabled>No rooms available</option>
             }
         </select>
     </div>

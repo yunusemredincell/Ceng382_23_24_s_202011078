@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\css\\RegisterStyle.css"
     },
     {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\RoomReservationsStyle.css",
+      "PackagePath": "staticwebassets\\css\\RoomReservationsStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\ShowReservationsStyle.css",
+      "PackagePath": "staticwebassets\\css\\ShowReservationsStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\ShowRoomsStyle.css",
+      "PackagePath": "staticwebassets\\css\\ShowRoomsStyle.css"
+    },
+    {
       "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -37,8 +49,16 @@
       "PackagePath": "staticwebassets\\image\\hotel-background.jpg"
     },
     {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\image\\kasımiye.jpg",
+      "PackagePath": "staticwebassets\\image\\kasımiye.jpg"
+    },
+    {
       "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\image\\mardin-home.jpg",
       "PackagePath": "staticwebassets\\image\\mardin-home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\image\\moryakub.jpg",
+      "PackagePath": "staticwebassets\\image\\moryakub.jpg"
     },
     {
       "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\js\\site.js",

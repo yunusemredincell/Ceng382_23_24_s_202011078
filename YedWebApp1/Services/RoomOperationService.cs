@@ -23,12 +23,12 @@ namespace YedWebApp1.Data
             return _context.Rooms.ToList();
         }
 
-        public void AddReservation(Reservation reservation)
+        public async Task AddReservationAsync(Reservation reservation)
         {
             try
             {
                 _context.Reservations.Add(reservation);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
             catch (Exception ex)
             {

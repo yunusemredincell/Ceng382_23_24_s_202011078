@@ -44,7 +44,7 @@ namespace MyApp.Namespace
             }
 
             roomService.AddRooms(Room);
-            return RedirectToPage("ShowReservations"); 
+            return RedirectToPage("ShowRooms"); 
         }
 
         public void OnGet()
