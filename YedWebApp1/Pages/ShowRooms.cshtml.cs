@@ -1,22 +1,38 @@
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using YedWebApp1.Data;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace MyApp.Namespace
 {
-
-  [Authorize]
-  public class ShowRoomsModel : PageModel
-  {
-    RoomService roomService;
-
-    private readonly ApplicationDbContext show_context;
-    public ShowRoomsModel(ApplicationDbContext context) => roomService = new RoomService(context);
-    public List<Room> RoomList { get; set; } = default!;
-    public void OnGet()
+    public class ShowRoomsModel : PageModel
     {
-      RoomList = roomService.GetRooms();
-    }
-  }
+        private readonly ApplicationDbContext _context;
 
+        public ShowRoomsModel(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        public IList<Room> RoomList { get; set; }
+
+        public void OnGet()
+        {
+            RoomList = _context.Rooms.ToList();
+        }
+
+        public IActionResult OnPostDelete(int id)
+        {
+            var room = _context.Rooms.Find(id);
+
+            if (room != null)
+            {
+                _context.Rooms.Remove(room);
+                _context.SaveChanges();
+            }
+
+            return RedirectToPage();
+        }
+    }
 }

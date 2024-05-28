@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\YedWebApp1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\CreateRoomsStyle.css",
+      "PackagePath": "staticwebassets\\css\\CreateRoomsStyle.css"
+    },
+    {
       "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\LoginStyle.css",
+      "PackagePath": "staticwebassets\\css\\LoginStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\RegisterStyle.css",
+      "PackagePath": "staticwebassets\\css\\RegisterStyle.css"
     },
     {
       "Id": "C:\\Users\\yunus\\OneDrive - student.cankaya.edu.tr\\CENG 3.Sınıf_2.Dönem\\CENG 382\\Ceng382_23_24_s_202011078\\YedWebApp1\\wwwroot\\css\\site.css",

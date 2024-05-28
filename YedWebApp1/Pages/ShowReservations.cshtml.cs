@@ -4,7 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using YedWebApp1.Data;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
+[Authorize]
 public class ShowReservationModel : PageModel
 {
     private readonly ApplicationDbContext _context;
@@ -20,7 +23,12 @@ public class ShowReservationModel : PageModel
 
     public void OnGet()
     {
-        var query = _context.Reservations.Include(r => r.room).AsQueryable();
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var query = _context.Reservations
+            .Include(r => r.room)
+            .Where(r => r.reserverName == userId)
+            .AsQueryable();
 
         if (!string.IsNullOrEmpty(Filter.RoomName))
         {

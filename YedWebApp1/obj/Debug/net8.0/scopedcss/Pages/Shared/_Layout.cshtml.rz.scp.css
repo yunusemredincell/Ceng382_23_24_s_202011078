@@ -5,22 +5,20 @@ a.navbar-brand[b-64jx3fdxwz] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  color: #fff !important;
+ 
 }
 
 .navbar[b-64jx3fdxwz] {
   z-index: 100;
   background: rgba(0, 0, 0, 0.2) !important;
+
 }
 
 a[b-64jx3fdxwz] {
   color: #0077cc;
 }
 
-.nav-item .nav-link[b-64jx3fdxwz] {
-  font-size: 1.5rem; 
-  color: #fff; 
-}
+
 
 .na .btn-primary[b-64jx3fdxwz] {
   color: #fff;
@@ -59,6 +57,9 @@ button.accept-policy[b-64jx3fdxwz] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+.container[b-64jx3fdxwz]{
+  color: #fff;
 }
 
 

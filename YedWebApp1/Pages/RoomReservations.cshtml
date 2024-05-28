@@ -7,9 +7,11 @@
 <h2>Room Reservation</h2>
 
 <form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
     <div class="form-group">
         <label for="RoomId">Room</label>
-        <select id="RoomId" name="RoomId" class="form-control">
+        <select id="RoomId" name="RoomId" class="form-control" asp-for="Reservation.RoomId">
             @foreach (var room in Model.Rooms)
             {
                 <option value="@room.Id">@room.RoomName</option>
@@ -18,11 +20,15 @@
     </div>
     <div class="form-group">
         <label for="ReservationStartDate">Start Date</label>
-        <input type="datetime-local" id="ReservationStartDate" name="ReservationStartDate" class="form-control" />
+        <input type="datetime-local" id="ReservationStartDate" name="ReservationStartDate" class="form-control" asp-for="Reservation.ReservationStartDate" />
     </div>
     <div class="form-group">
         <label for="ReservationEndDate">End Date</label>
-        <input type="datetime-local" id="ReservationEndDate" name="ReservationEndDate" class="form-control" />
+        <input type="datetime-local" id="ReservationEndDate" name="ReservationEndDate" class="form-control" asp-for="Reservation.ReservationEndDate" />
     </div>
     <button type="submit" class="btn btn-primary">Create Reservation</button>
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

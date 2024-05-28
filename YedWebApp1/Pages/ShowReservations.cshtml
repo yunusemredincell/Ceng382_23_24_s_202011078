@@ -43,8 +43,8 @@
                 <td>@reservation.ReservationStartDate</td>
                 <td>@reservation.ReservationEndDate</td>
                 <td>
-                <a asp-page="/EditReservation" asp-route-id="@reservation.Id" class="btn btn-sm btn-warning">Edit</a>
-                <a asp-page="/DeleteReservation" asp-route-id="@reservation.Id" class="btn btn-sm btn-danger">Delete</a>
+                    <a href="/EditReservation?id=@reservation.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a href="/DeleteReservation?id=@reservation.Id" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
         }

@@ -52,14 +52,15 @@ main {
     padding: 10px 20px;
     font-size: 1.2em;
 }
-
 .explore-button-container {
     position: relative;
+    color: crimson;
 }
 
 #explore-button {
     position: relative;
     z-index: 10;
+    
 }
 
 .footer {

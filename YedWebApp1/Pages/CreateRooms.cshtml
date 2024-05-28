@@ -1,30 +1,43 @@
 ﻿@page
 @model MyApp.Namespace.CreateRoomsModel
 @{
-     ViewData["Title"] = "Create Rooms";
+    ViewData["Title"] = "Create Rooms";
 }
 
-<h1>Create Room</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/CreateRoomsStyle.css" />
+</head>
+<body>
+    <h1>Create Room</h1>
 
-<form method="post" class="createroom">
-    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-    <div class="form-group">
-        <label asp-for="Room.Capacity" class="control-label"></label>
-        <input asp-for="Room.Capacity" class="form-control" />
-        <span asp-validation-for="Room.Capacity" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Room.RoomName" class="control-label"></label>
-        <input asp-for="Room.RoomName" class="form-control" />
-        <span asp-validation-for="Room.RoomName" class="text-danger"></span>
-    </div>
-    </br>
+    <form method="post" enctype="multipart/form-data" class="createroom">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Room.Capacity" class="control-label"></label>
+            <input asp-for="Room.Capacity" class="form-control" />
+            <span asp-validation-for="Room.Capacity" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Room.RoomName" class="control-label"></label>
+            <input asp-for="Room.RoomName" class="form-control" />
+            <span asp-validation-for="Room.RoomName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Image">Upload Image</label>
+            <input type="file" id="Image" name="Image" class="form-control" />
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Create New Room" class="btn btn-primary buttonc" />
+        </div>
+    </form>
 
-    <div class="form-group">
-        <input type="submit" value="Create New Room" class="btn btn-primary buttonc" />
-    </div>
-
-</form>
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>

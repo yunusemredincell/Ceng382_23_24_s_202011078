@@ -5,22 +5,20 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  color: #fff !important;
+ 
 }
 
 .navbar {
   z-index: 100;
   background: rgba(0, 0, 0, 0.2) !important;
+
 }
 
 a {
   color: #0077cc;
 }
 
-.nav-item .nav-link {
-  font-size: 1.5rem; 
-  color: #fff; 
-}
+
 
 .na .btn-primary {
   color: #fff;
@@ -59,6 +57,9 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+.container{
+  color: #fff;
 }
 
 
