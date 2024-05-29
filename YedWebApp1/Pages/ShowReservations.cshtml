@@ -38,7 +38,9 @@
             <th>Start Time</th>
             <th>End Date</th>
             <th>End Time</th>
+            <th>Reserver Name</th>
             <th>Actions</th>
+           
         </tr>
     </thead>
     <tbody>
@@ -50,6 +52,7 @@
                 <td>@reservation.ReservationStartDate.ToString("HH:mm")</td>
                 <td>@reservation.ReservationEndDate.ToString("yyyy-MM-dd")</td>
                 <td>@reservation.ReservationEndDate.ToString("HH:mm")</td>
+                <td>@reservation.reserverName</td>
                 <td>
                     <a href="/EditReservation?id=@reservation.Id" class="btn btn-sm btn-warning">Edit</a>
                     <a href="/DeleteReservation?id=@reservation.Id" class="btn btn-sm btn-danger">Delete</a>

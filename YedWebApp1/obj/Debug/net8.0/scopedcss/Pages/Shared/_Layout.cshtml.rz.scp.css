@@ -5,13 +5,11 @@ a.navbar-brand[b-64jx3fdxwz] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
- 
+
 }
 
 .navbar[b-64jx3fdxwz] {
   z-index: 100;
-  background: rgba(0, 0, 0, 0.2) !important;
-
 }
 
 a[b-64jx3fdxwz] {
@@ -27,7 +25,7 @@ a[b-64jx3fdxwz] {
 }
 
 .nav-pills .nav-link.active[b-64jx3fdxwz],
-.nav-pills .show > .nav-link[b-64jx3fdxwz] {
+.nav-pills .show>.nav-link[b-64jx3fdxwz] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -58,8 +56,7 @@ button.accept-policy[b-64jx3fdxwz] {
   white-space: nowrap;
   line-height: 60px;
 }
-.container[b-64jx3fdxwz]{
+
+.container[b-64jx3fdxwz] {
   color: #fff;
 }
-
-

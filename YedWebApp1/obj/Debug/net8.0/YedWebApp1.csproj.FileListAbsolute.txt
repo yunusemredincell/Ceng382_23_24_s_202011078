@@ -261,3 +261,13 @@ C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 38
 C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\yunus\OneDrive - student.cankaya.edu.tr\CENG 3.Sınıf_2.Dönem\CENG 382\Ceng382_23_24_s_202011078\YedWebApp1\bin\Debug\net8.0\logs\log-20240529.json

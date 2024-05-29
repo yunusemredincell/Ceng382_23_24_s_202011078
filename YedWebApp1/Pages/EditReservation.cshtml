@@ -4,6 +4,10 @@
     ViewData["Title"] = "Edit Reservation";
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/EditReservationStyle.css" asp-append-version="true" />
+</head>
+
 <h2>Edit Reservation</h2>
 
 <form method="post">
@@ -12,7 +16,7 @@
         <select id="RoomId" name="RoomId" class="form-control">
             @foreach (var room in Model.Rooms)
             {
-                 <option value="@room.Id" >@room.RoomName</option>
+                <option value="@room.Id" selected="@room.Id == Model.Reservation.RoomId">@room.RoomName</option>
             }
         </select>
     </div>
